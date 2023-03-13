@@ -1,5 +1,5 @@
 public class LeapYear {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int year = 2022;
         boolean isLeapYear;
         isLeapYear = (year % 4 == 0);
@@ -10,5 +10,5 @@ public class LeapYear {
             System.out.println(year + " is not a leap year");
         }
     }
-        }
+}
 
