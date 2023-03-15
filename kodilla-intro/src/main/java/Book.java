@@ -1,9 +1,9 @@
 public class Book {
-    private String author;
-    private String title;
+    public String author;
+    public String title;
 
     public Book (String author, String title) {
-        this.author;
-        this.title;
+        this.author = author;
+        this.title = title;
     }
 }
