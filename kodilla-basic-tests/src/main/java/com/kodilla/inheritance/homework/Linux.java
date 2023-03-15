@@ -7,8 +7,8 @@ public class Linux extends OperatingSystem {
     public void turnOff() {
         System.out.println("Linux system is disabled");
     }
-    public Linux() {
-                System.out.println("Linux was created in 1991");
+    public Linux(int years) {
+                       System.out.println("Linux was created in 1991");
     }
 
 }

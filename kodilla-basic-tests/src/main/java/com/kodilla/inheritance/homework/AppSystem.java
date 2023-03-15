@@ -5,12 +5,13 @@ public class AppSystem {
         OperatingSystem operatingSystem = new OperatingSystem();
 
 
-        Windows windows = new Windows();
+        Windows windows = new Windows(1985);
         windows.turnOn();
 
 
-        Linux linux = new Linux();
+        Linux linux = new Linux(1991);
         linux.turnOff();
+        
 
     }
 }

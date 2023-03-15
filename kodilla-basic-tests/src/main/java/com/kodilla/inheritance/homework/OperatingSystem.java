@@ -10,7 +10,11 @@ public class OperatingSystem {
         System.out.println("System is disabled");
     }
     public OperatingSystem(){
+        this.years=years;
         System.out.println("Year of manufacture");
     }
+    public int getYears(){
+        return years;
     }
+        }
 
