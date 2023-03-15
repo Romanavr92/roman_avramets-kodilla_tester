@@ -6,4 +6,5 @@ include 'kodilla-intro:src:main:Mytraining'
 findProject(':kodilla-intro:src:main:Mytraining')?.name = 'Mytraining'
 include 'kodilla-intro:Romek'
 findProject(':kodilla-intro:Romek')?.name = 'Romek'
+include 'kodilla-basic-tests'
 
