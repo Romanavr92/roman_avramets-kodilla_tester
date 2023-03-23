@@ -8,7 +8,6 @@ public class Application {
         convertible.displayNumberOfSeats();
         System.out.println(convertible.getSeats());
 
-
         }
     }
 

@@ -24,9 +24,9 @@ public class Application {
         }
         Calculator calculator3 = new Calculator();
         int f = -4;
-        double powResult = calculator3.pow(f,2);
+        double powResult = calculator3.pow(f, 2);
         boolean correct3 = ResultChecker.assertEquals2(16, powResult);
-        if ( correct3) {
+        if (correct3) {
             System.out.println("Metoda pow dziala poprawine dla liczby " + f);
         } else {
             System.out.println("Metoda pow nie dziala poprawine dla liczby " + f);
