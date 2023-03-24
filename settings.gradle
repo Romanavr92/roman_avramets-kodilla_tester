@@ -7,4 +7,7 @@ findProject(':kodilla-intro:src:main:Mytraining')?.name = 'Mytraining'
 include 'kodilla-intro:Romek'
 findProject(':kodilla-intro:Romek')?.name = 'Romek'
 include 'kodilla-basic-tests'
+include 'kodilla-basic-tests:kodilla-collections'
+findProject(':kodilla-basic-tests:kodilla-collections')?.name = 'kodilla-collections'
+include 'kodilla-collections'
 
